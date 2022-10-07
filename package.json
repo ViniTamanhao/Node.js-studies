@@ -2,7 +2,7 @@
   "name": "node.js-studies",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "start": "node index",
     "dev": "nodemon index"

@@ -1,6 +1,0 @@
-20221007	15:21:56	705c9203-a91b-49aa-b9eb-9977e8bed238	Log event emitted!!!
-20221007	15:21:59	fbbfc9bd-b568-4ca6-9639-f3c0061fa34d	Log event emitted!!!
-20221007	15:22:10	afebe2fd-81ec-4391-af2f-5b24e83848fd	Log event emitted!!!
-20221007	15:22:16	aa308840-086c-4cf8-bef9-173b6a557e78	Log event emitted!!!
-20221007	15:48:45	f53d047d-1926-468e-b735-1f2b761ac502	Log event emitted!!!
-20221007	15:48:49	689b19ca-73fb-46a3-a80e-daec3b54ba98	Log event emitted!!!
