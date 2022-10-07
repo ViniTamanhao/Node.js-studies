@@ -2,7 +2,7 @@
   "name": "node.js-studies",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node index",
     "dev": "nodemon index"
@@ -18,9 +18,10 @@
   },
   "homepage": "https://github.com/ViniTamanhao/Node.js-Studies-Repos#readme",
   "dependencies": {
-    "date-fns": "^2.29.3"
+    "date-fns": "2.29.3",
+    "uuid": "9.0.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.20"
+    "nodemon": "2.0.20"
   }
 }
