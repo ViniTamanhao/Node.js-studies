@@ -1,0 +1,2 @@
+20221013	16:57:25	6f8f5227-de38-4b26-892d-52d8be1c4825	Error: not allowed by CORS
+20221013	16:57:38	65078bea-1cb6-49cf-a07b-9b323e536efc	Error: not allowed by CORS

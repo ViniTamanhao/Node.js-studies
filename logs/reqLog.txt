@@ -5,3 +5,25 @@
 20221010	14:39:11	690a6c8b-a623-42b0-aef6-f0d7f9b3378b	/new-page.html	GET
 20221010	14:39:11	d25bb0b8-5c89-4210-bd26-cbf80de1c2f6	/css/style.css	GET
 20221010	14:39:11	64dab55a-17f5-41e1-896c-7effabccd047	/img/img1.jpg	GET
+20221013	16:29:58	b0136434-658a-464c-b968-01f2c2f2f299	GET	undefined	/index
+20221013	16:29:58	5fd58ec3-ec82-454e-966e-791b240b0ce0	GET	undefined	/css/style.css
+20221013	16:32:16	424cca89-7dc4-474f-b58f-840a2af80ccc	GET	undefined	/index
+20221013	16:32:16	402e99fc-814b-4457-a412-040374c71e58	GET	undefined	/css/style.css
+20221013	16:32:21	d7b074ed-7cdd-47d1-85ed-792ce340f6fa	GET	undefined	/index
+20221013	16:32:21	0c9d178c-5d11-4900-8c18-df00023cd8d4	GET	undefined	/css/style.css
+20221013	16:32:26	ac0e2c35-b3a9-4060-abd6-efdbfa564e53	GET	undefined	/index
+20221013	16:32:26	d9245746-6a7a-43e0-a79f-2614f0729a38	GET	undefined	/css/style.css
+20221013	16:35:39	42717952-e2c9-4817-800f-27f4932ad779	GET	null	/
+20221013	16:37:44	b7f2f62b-c612-4c55-b060-74f88f8a5107	GET	null	/
+20221013	16:44:03	0100d506-127e-4fe3-8e1c-41929c5c297a	GET	null	/
+20221013	16:44:06	e9476176-e0e2-442b-85c0-dab45311c0b6	GET	null	/
+20221013	16:44:14	bccf3f2c-2baa-4a18-8bbe-bf70182a4833	GET	null	/
+20221013	16:51:07	a5cb0a89-7075-41cb-a954-edf2ae59edd1	GET	undefined	/index
+20221013	16:52:00	94f3ffff-d003-4eac-a57b-ff49e0c671f4	GET	undefined	/index
+20221013	16:52:00	23e2a951-a6ee-470d-84f6-ab0ec5831393	GET	undefined	/css/style.css
+20221013	16:56:56	0650818a-c111-4515-942e-ec4c7aa9d322	GET	undefined	/index
+20221013	16:56:56	f9bca74b-7d4c-4f3c-8466-a163383e27ed	GET	undefined	/css/style.css
+20221013	16:57:25	6bebcea7-395d-4888-9f15-6a8259c6a7fa	GET	undefined	/index
+20221013	16:57:38	1e101027-1683-4abe-b8b8-5f89d96c6df5	GET	undefined	/index
+20221013	16:57:48	f827e57d-ae83-40c4-9cf8-2d7288fb9020	GET	undefined	/index
+20221013	16:57:48	a3e34e12-9add-4aad-ae8e-e95ffe284d65	GET	undefined	/css/style.css
