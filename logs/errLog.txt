@@ -1,2 +1,8 @@
 20221013	16:57:25	6f8f5227-de38-4b26-892d-52d8be1c4825	Error: not allowed by CORS
 20221013	16:57:38	65078bea-1cb6-49cf-a07b-9b323e536efc	Error: not allowed by CORS
+20221014	14:58:36	d0eb821b-a5a6-487c-8400-92632fa01d00	Error: ENOENT: no such file or directory, stat '/Applications/Main/Source/JavaScript/Studies/Node.js studies/views/subdir/text.html'
+20221014	14:58:42	f4298638-55ec-4e47-95be-d7553b494e89	Error: ENOENT: no such file or directory, stat '/Applications/Main/Source/JavaScript/Studies/Node.js studies/views/subdir/text.html'
+20221014	15:38:19	1c9536da-5bea-4ee0-886f-8407a8df94b2	Error: ENOENT: no such file or directory, stat '/Applications/Main/Source/JavaScript/Studies/Node.js studies/views/subdir/text.html'
+20221014	15:38:24	eb624b72-3fd2-445c-82dc-5f3985196456	Error: ENOENT: no such file or directory, stat '/Applications/Main/Source/JavaScript/Studies/Node.js studies/views/subdir/text.html'
+20221014	15:38:24	621fea2b-2c0b-4459-80f9-08f4607e1f5c	Error: ENOENT: no such file or directory, stat '/Applications/Main/Source/JavaScript/Studies/Node.js studies/views/subdir/text.html'
+20221014	15:38:24	1f398fac-d955-40d9-a078-094ae5bdf460	Error: ENOENT: no such file or directory, stat '/Applications/Main/Source/JavaScript/Studies/Node.js studies/views/subdir/text.html'

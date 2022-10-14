@@ -32,6 +32,11 @@ app.use(express.urlencoded({ extended: false }));
 
 // serve static files
 app.use(express.static(path.join(__dirname, "/public")));
+app.use("/subdir", express.static(path.join(__dirname, "/public")));
+
+// using routes
+app.use("/", require("./routes/root"));
+app.use("/subdir", require("./routes/subdir"));
 
 app.get("^/$|/index(.html)?", (req, res) => {
   //res.sendFile('./views/index.html', { root: __dirname });
@@ -46,38 +51,15 @@ app.get("/old-page(.html)?", (req, res) => {
   res.redirect(301, "/new-page.html"); //302 by default
 });
 
-// Route handlers
-app.get(
-  "/hello(.html)?",
-  (req, res, next) => {
-    console.log("attempted to load hello.html");
-    next();
-  },
-  (req, res) => {
-    res.send("Hello World!");
+app.all("*", (req, res) => {
+  res.status(404);
+  if (req.accepts("html")) {
+    res.sendFile(path.join(__dirname, "views", "404.html"));
+  } else if (req.accepts("json")) {
+    res.json({ error: "404 page not found" });
+  } else {
+    res.type("txt").send("404 not found");
   }
-);
-
-// chaining route handlers
-const one = (req, res, next) => {
-  console.log("one");
-  next();
-};
-
-const two = (req, res, next) => {
-  console.log("two");
-  next();
-};
-
-const three = (req, res) => {
-  console.log("three");
-  res.send("Finished!");
-};
-
-app.get("/chain(.html)?", [one, two, three]);
-
-app.get("/*", (req, res) => {
-  res.status(404).sendFile(path.join(__dirname, "views", "404.html"));
 });
 
 app.use(errorHandler);
