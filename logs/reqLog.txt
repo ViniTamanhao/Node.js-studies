@@ -55,3 +55,16 @@
 20221014	15:43:04	cb49f274-2196-4a7a-ac01-929d1f172753	GET	undefined	/new-page.html
 20221014	15:43:04	5a0f7389-a179-4390-9cd2-c11ef31f5a3d	GET	undefined	/img/img1.jpg
 20221014	15:43:04	a1f24e6e-5a95-464d-85c1-f672ace16f8e	GET	undefined	/css/style.css
+20221017	15:05:13	d8d3126c-85ed-4cd9-a709-94504991aa1a	GET	undefined	/hello
+20221017	15:05:13	626182f2-7daf-462b-9b67-91cc55054d1b	GET	undefined	/css/style.css
+20221017	15:05:14	19ef15e9-5f5b-4a7f-825a-ebfa66bfe033	GET	undefined	/favicon.ico
+20221017	15:05:17	cfa023a3-fd4e-49a8-8574-980a948e2370	GET	undefined	/
+20221017	15:05:17	e6e52bf2-c595-4d33-9746-d546e908a7c2	GET	undefined	/css/style.css
+20221017	15:14:53	a8d27cc6-16c8-4053-9f50-504a4b11c824	GET	undefined	/
+20221017	15:14:54	bf6dd564-9bd6-458a-ad59-e772ac5d8775	GET	undefined	/css/style.css
+20221017	15:14:56	458b418f-dcbf-447d-b711-029262cb66f4	GET	undefined	/
+20221017	15:14:56	baa03e22-e494-4450-9dfb-3adcc29f22e2	GET	undefined	/css/style.css
+20221017	15:14:57	ac1aa1ae-918c-488c-bca1-26a7bccac8f5	GET	undefined	/
+20221017	15:14:58	11711751-8a2a-4a96-afab-3ed00b0eb0fa	GET	undefined	/css/style.css
+20221017	15:15:03	9265a80a-09f6-41b6-abe2-58d007f8443a	GET	undefined	/index
+20221017	15:15:03	8c3724a4-d59e-4981-a082-e5daadadf9cf	GET	undefined	/css/style.css
