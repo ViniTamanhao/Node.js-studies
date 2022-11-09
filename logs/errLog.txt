@@ -6,3 +6,4 @@
 20221014	15:38:24	eb624b72-3fd2-445c-82dc-5f3985196456	Error: ENOENT: no such file or directory, stat '/Applications/Main/Source/JavaScript/Studies/Node.js studies/views/subdir/text.html'
 20221014	15:38:24	621fea2b-2c0b-4459-80f9-08f4607e1f5c	Error: ENOENT: no such file or directory, stat '/Applications/Main/Source/JavaScript/Studies/Node.js studies/views/subdir/text.html'
 20221014	15:38:24	1f398fac-d955-40d9-a078-094ae5bdf460	Error: ENOENT: no such file or directory, stat '/Applications/Main/Source/JavaScript/Studies/Node.js studies/views/subdir/text.html'
+20221109	15:45:48	e72f34e8-b497-4400-ae0e-73a1044890c9	TypeError: authHeader?.startwith is not a function

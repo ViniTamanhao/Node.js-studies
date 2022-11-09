@@ -4,6 +4,7 @@ const usersDB = {
     this.users = data;
   },
 };
+
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 require("dotenv").config();
@@ -17,13 +18,19 @@ const handleLogin = async (req, res) => {
       .status(400)
       .json({ message: "Username and password are required." });
   const foundUser = usersDB.users.find((person) => person.username === user);
-  if (!foundUser) return res.sendStatus(401).json({ message: "unauthorized" });
-  //  evaluate password (with bcrypt)
+  if (!foundUser) return res.sendStatus(401); //Unauthorized
+  // evaluate password
   const match = await bcrypt.compare(pwd, foundUser.password);
   if (match) {
+    const roles = Object.values(foundUser.roles);
     // create JWTs
     const accessToken = jwt.sign(
-      { username: foundUser.username },
+      {
+        UserInfo: {
+          username: foundUser.username,
+          roles: roles,
+        },
+      },
       process.env.ACCESS_TOKEN_SECRET,
       { expiresIn: "30s" }
     );
@@ -32,7 +39,7 @@ const handleLogin = async (req, res) => {
       process.env.REFRESH_TOKEN_SECRET,
       { expiresIn: "1d" }
     );
-    //Saving refresh token with current user
+    // Saving refreshToken with current user
     const otherUsers = usersDB.users.filter(
       (person) => person.username !== foundUser.username
     );

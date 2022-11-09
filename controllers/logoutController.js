@@ -5,26 +5,25 @@ const usersDB = {
   },
 };
 const fsPromises = require("fs").promises;
-const { tr } = require("date-fns/locale");
 const path = require("path");
 
 const handleLogout = async (req, res) => {
-  //On client also delete access token
+  // On client, also delete the accessToken
 
   const cookies = req.cookies;
-  if (!cookies?.jwt) return res.sendStatus(204); //No content to send back!!!
+  if (!cookies?.jwt) return res.sendStatus(204); //No content
   const refreshToken = cookies.jwt;
 
-  //Is refreshToken in DB???
+  // Is refreshToken in db?
   const foundUser = usersDB.users.find(
     (person) => person.refreshToken === refreshToken
   );
   if (!foundUser) {
-    res.clearCookie("jwt", { httpOnly: true });
+    res.clearCookie("jwt", { httpOnly: true, sameSite: "None", secure: true });
     return res.sendStatus(204);
   }
 
-  //Delete refreshToken in DB (with FileSystem, since it's a dummy DB)
+  // Delete refreshToken in db
   const otherUsers = usersDB.users.filter(
     (person) => person.refreshToken !== foundUser.refreshToken
   );
@@ -35,7 +34,6 @@ const handleLogout = async (req, res) => {
     JSON.stringify(usersDB.users)
   );
 
-  //Clear cookies
   res.clearCookie("jwt", { httpOnly: true, sameSite: "None", secure: true });
   res.sendStatus(204);
 };
